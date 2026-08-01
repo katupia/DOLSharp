@@ -38,7 +38,8 @@
     <RegisterForComInterop>False</RegisterForComInterop>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="log4net" Version="3.3.0" />
+    <PackageReference Include="log4net" Version="3.3.2" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.5" />
     <ProjectReference Include="..\DOLBase\DOLBase.csproj" Name="DOLBase" />
     <ProjectReference Include="..\DOLDatabase\DOLDatabase.csproj" Name="DOLDatabase" />
     <ProjectReference Include="..\GameServer\GameServer.csproj" Name="GameServer" />
